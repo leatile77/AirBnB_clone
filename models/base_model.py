@@ -6,10 +6,10 @@ import json
 import uuid
 
 class BaseModel:
-    """Initialise the class"""
-    def __init__(self,):
+    """Defines BaseModel class"""
+    def __init__(self):
         """
-
+        Instantiates class.
         """
         self.id = str(uuid.uuid4())
 
@@ -18,7 +18,7 @@ class BaseModel:
 
     def save(self):
         """
-    
+        
         """
         self.updated_at = datetime.utcnow()
 
