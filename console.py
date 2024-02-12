@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+
+import cmd
+
+class HBNBCommand(cmd.Cmd):
+    """Define HBNBCommand class"""
+    prompt = "(hbnb)"
+    def my_quit(self, arg):
+        """Implement 'quit' to exit program"""
+        return
+
+    def my_EOF(self, arg):
+        """Implement 'EOF' to leave program"""
+        print()
+        return True
+
+    def my_help(self, arg):
+        """Implement 'help' to show how to exit program"""
+        print("Quit command to exit the program")
+
+if __name__ == '__main__':
+    HBNBCommand().cmdloop()
