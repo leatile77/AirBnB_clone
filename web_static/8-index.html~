@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/8-places.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+      </div>
+    </header>
+    <div class="container">
+      <section class="filters">
+	<button>Search</button>
+	<div class="locations">
+	  <h3>States</h3>
+	  <h4>California, Arizona...</h4>
+	  <ul class="popover">
+	    <li>
+	      <h2>Texas</h2>
+	      <ul>
+		<li>Austin</li>
+		<li>Dallas</li>
+		<li>Houston</li>
+	      </ul>
+	    </li>
+	    <li>
+	      <h2>Florida</h2>
+	      <ul>
+		<li>Tallahassee</li>
+		<li>Jacksonville</li>
+		<li>South Florida</li>
+	      </ul>
+	    </li>
+	  </ul>
+	</div>
+	<div class="amenities">
+	  <h3>Amenities</h3>
+	  <h4>Internet, Kitchen...</h4>
+	  <ul class="popover">
+	    <li>Jacozi</li>
+	    <li>Swimming pool</li>
+	    <li>Bubble bath</li>
+	  </ul>
+	</div>
+      </section>
+
+      <section class="places">
+	<h1>Places</h1>
+	
+	<article>
+	  <h2>My home</h2>
+	  <div class="price_by_night">$80</div>
+	  <div class="information">
+	    <div class="max_guest">
+	      <!-- icon -->
+	      <div class="guest_icon"></div>
+	      <div>2 Guests</div>
+	    </div>
+
+	    <div class="number_rooms">
+	      <!-- icon -->
+	      <div class="rooms_icon"></div>
+	      <div>1 Bedroom</div>
+	    </div>
+
+	    <div class="number_bathrooms">
+	      <!-- icon -->
+	      <div class="bath_icon"></div>
+	      <div>1 Bathroom</div>
+	    </div>
+	  </div>
+	  <div class="user">
+	    <strong>Owner:</strong> Laxen Doe
+	  </div>
+	  <div class="description">
+	    <p>Your peaceful home away from home. Large space equates to comfortability, with a mini garden for those who enjoy staying in touch with nature. Conviniently located near shopping centres and public transport</p>
+	  </div>
+	</article>
+	
+	<article>
+	  <h2>Tiny house</h2>
+	  <div class="price_by_night">$65</div>
+	  <div class="information">
+	    <div class="max_guest">
+	      <!-- icon -->
+	      <div class="guest_icon"></div>
+	      <div>4 Guests</div>
+	    </div>
+
+	    <div class="number_rooms">
+	      <!-- icon -->
+	      <div class="rooms_icon"></div>
+	      <div>2 Bedrooms</div>
+	    </div>
+
+	    <div class="number_bathrooms">
+	      <!-- icon -->
+	      <div class="bath_icon"></div>
+	      <div>1 Bathroom</div>
+	    </div>
+	  </div>
+	  <div class="user">
+	    <strong>Owner:</strong> Jack Sparrow
+	  </div>
+	  <div class="description">
+	    <p>Your tiny, yet peaceful home away from home. Small space but enough to leave you pleased, with a mini garden for those who enjoy staying in touch with nature. Conviniently located near shopping centres and public transport</p>
+	  </div>
+	</article>
+
+	<div class="below">
+	  <article>
+	    <h2>A suite</h2>
+	    <div class="price_by_night">$190</div>
+	    <div class="information">
+	      <div class="max_guest">
+		<!-- icon -->
+		<div class="guest_icon"></div>
+		<div>8 Guests</div>
+	      </div>
+	      
+	      <div class="number_rooms">
+		<!-- icon -->
+		<div class="rooms_icon"></div>
+		<div>4 Bedrooms</div>
+	      </div>
+	      
+	      <div class="number_bathrooms">
+		<!-- icon -->
+		<div class="bath_icon"></div>
+		<div>3 Bathrooms</div>
+	      </div>
+	    </div>
+	</div>
+	<div class="user">
+	  <strong>Owner:</strong> Leatile Ntwana
+	</div>
+	<div class="description">
+	  <p>Your peaceful home away from home. Large space equates to comfortability, with this suite where everything you left at home typically followed you so you don't feel the difference. Conviniently located near shopping centres and public transport</p>
+	  
+	</article>
+	</div>
+      </section>
+    </div>
+    <footer>
+      <span>Best School</span>
+    </footer>
+  </body>
+</html>
